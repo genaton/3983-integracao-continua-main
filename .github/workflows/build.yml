@@ -12,5 +12,5 @@ jobs:
      - uses: actions/checkout@v4
        
      - name: Build docker image
-       run: docker build --target=production -t genaton/3983-integracao-continua-main:${{ github.ref }}
+       run: docker build --target=production -t genaton/3983-integracao-continua-main:${{ github.ref }} .
    
